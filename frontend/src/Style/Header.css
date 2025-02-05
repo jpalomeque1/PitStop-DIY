@@ -2,7 +2,13 @@
   background-color: #222;
   color: #fff;
   padding: 1rem 0;
+  width: 100%;
+  position: sticky; /* スクロールしても固定 */
+  top: 0; /* 上部に固定 */
+  z-index: 1000; /* 他の要素より前面に表示 */
 }
+
+
 
 .navbar {
   display: flex;
