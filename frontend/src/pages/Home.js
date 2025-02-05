@@ -11,7 +11,7 @@ const Home = () => {
             <div className="main-content">
                 <HomeBody />
             </div>
-            <Footer className="footer" />
+
         </div>
     );
 };
