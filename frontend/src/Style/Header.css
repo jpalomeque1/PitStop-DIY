@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust height as needed */
+    background-color: transparent; /* Optional background color */
+}
+
+.header h1 {
+    border: 2px solid black; /* Corrected border property */
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    text-shadow:
+            2px 2px 0px white,
+            -2px -2px 0px white,
+            2px -2px 0px white,
+            -2px 2px 0px white; /* White outline effect */
+}
