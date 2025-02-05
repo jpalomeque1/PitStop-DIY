@@ -5,10 +5,13 @@
 }
 footer{
     background-color: darkslategray;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
 }
 .footerContainer{
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 35px 25px 20px;
 }
 .socialIcons{
     display: flex;
@@ -84,7 +87,7 @@ footer{
     }
 }
 .logo img{
-    width: 45px;
-    height: 45px;
+    width: 75px;
+    height: 75px;
     border-radius: 40%;
 }

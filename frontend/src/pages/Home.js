@@ -8,10 +8,8 @@ const Home = () => {
     return (
         <div className="home-container">
             <Header className="header" />
-            <div className="main-content">
-                <HomeBody />
-            </div>
 
+            <Footer className="footer" />
         </div>
     );
 };

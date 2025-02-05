@@ -9,7 +9,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/"><i className="fa-brands fa-facebook"></i></a>
           <a href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a>
           <a href="/frontend/src/pages/Home.js" className="logo">
-            <img src="/frontend/src/Components/Logo.webp" alt="Logo" />
+            <img src="../Logo.png" alt="Logo" />
           </a>
           <a href="https://x.com/?mx=2"><i className="fa-brands fa-twitter"></i></a>
           <a href="https://www.youtube.com/"><i className="fa-brands fa-youtube"></i></a>
