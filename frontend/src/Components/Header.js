@@ -1,24 +1,3 @@
-//import React from "react";
-//import "./Header.css";
-//
-//const Header = () => {
-//  return (
-//    <header className="header">
-//      <nav className="navbar">
-//        <div className="logo">CarProject</div>
-//        <ul className="navLinks">
-//          <li><a href="#home">Home</a></li>
-//          <li><a href="#diy">DIY</a></li>
-//          <li><a href="#tools">Tools</a></li>
-//          <li><button className="loginButton">Login</button></li>
-//        </ul>
-//      </nav>
-//    </header>
-//  );
-//};
-//
-//export default Header;
-
 import React from "react";
 import "./Header.css";
 
