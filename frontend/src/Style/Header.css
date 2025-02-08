@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px; /* Adjust height as needed */
-    background-color: transparent; /* Optional background color */
+    height: 150px;
+    background-color: transparent;
+    padding-bottom: 130px;
 }
 
 .header h1 {
-    border: 2px solid black; /* Corrected border property */
+    border: 2px solid black;
     font-size: 4rem;
     color: black;
     font-weight: bold;
@@ -16,5 +17,5 @@
             2px 2px 0px white,
             -2px -2px 0px white,
             2px -2px 0px white,
-            -2px 2px 0px white; /* White outline effect */
+            -2px 2px 0px white;
 }

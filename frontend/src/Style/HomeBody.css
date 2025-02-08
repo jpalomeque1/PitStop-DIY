@@ -1,115 +1,26 @@
-@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
-@import url('https://fonts.cdnfonts.com/css/poppins');
-
-.banner {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.slider-wrapper {
-    display: flex;
+.image-container {
+    position: absolute;
+    width: 1100px;
+    height: 1100px;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    position: relative;
+    border-radius: 50%;
+    margin-top: 150px;
+
+
 }
 
-.slider {
+.rotating-image {
     position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    transform-style: preserve-3d;
-    animation: autoRun 20s linear infinite;
-}
-
-@keyframes autoRun {
-    from {
-        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-    }
-    to {
-        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    }
-}
-
-.slider .item {
-    position: absolute;
-    inset: 0;
-    transform:
-            rotateY(calc( (var(--position) - 1) * (360deg / var(--quantity))))
-            translateZ(550px);
-}
-
-.slider .item img {
-    @apply w-[50%] h-[50%] object-cover;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.1s ease-in-out;
     border-radius: 50%;
 }
-.content {
-    position: relative;
-    width: 100%;
+
+.App {
     text-align: center;
-}
-
-.content h1 {
-    font-family: 'ICA Rubrik';
-    @apply text-[16em] leading-none text-[#25283B] relative;
-}
-
-.content h1::after {
-    position: absolute;
-    inset: 0;
-    content: attr(data-content);
-    -webkit-text-stroke: 2px #d2d2d2;
-    color: transparent;
-}
-
-.content .author {
-    font-family: Poppins;
-    @apply text-right max-w-[200px];
-}
-
-.content h2 {
-    @apply text-3xl;
-}
-
-@media (max-width: 823px) {
-    .slider {
-        @apply w-[160px] h-[200px] left-1/2 transform -translate-x-1/2;
-    }
-
-    .slider .item {
-        transform:
-                rotateY(calc( (var(--position) - 1) * (360deg / var(--quantity))))
-                translateZ(300px);
-    }
-
-    .content h1 {
-        @apply text-center text-7xl text-shadow-md;
-    }
-
-    .content .author {
-        @apply text-white text-center px-8;
-        text-shadow: 0 10px 20px #000;
-        max-width: unset;
-        width: 100%;
-    }
-}
-
-@media (max-width: 667px) {
-    .slider {
-        @apply w-[100px] h-[150px] left-1/2 transform -translate-x-1/2;
-    }
-
-    .slider .item {
-        transform:
-                rotateY(calc( (var(--position) - 1) * (360deg / var(--quantity))))
-                translateZ(180px);
-    }
-
-    .content h1 {
-        @apply text-5xl;
-    }
+    padding: 20px;
 }
 

@@ -1,0 +1,30 @@
+.tools-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.tool-item {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.tool-image {
+    width: 200%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tool-link {
+    color: black;
+    text-decoration: unset underline;
+    font-size: 2em;
+}

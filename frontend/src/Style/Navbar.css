@@ -1,10 +1,9 @@
-
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align the navbar to the left */
     align-items: center;
     height: 80px;
-    background-color: #f0f0f0; /* Optional background color for the navbar */
+    background-color: transparent;
 }
 
 .nav-links {
@@ -14,7 +13,7 @@
 
 .nav-button {
     text-decoration: none;
-    background-color: navy;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -23,5 +22,39 @@
 }
 
 .nav-button:hover {
-    background-color: #003366;
+    background-color: steelblue;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.dropdown-menu .dropdown-item {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: steelblue;
+}
+
+/* Show dropdown when hovering */
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

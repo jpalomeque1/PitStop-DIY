@@ -1,15 +1,11 @@
 import React from "react";
-import Header from "../Components/Header";
-import HomeBody from "../Components/HomeBody";
-import Footer from "../Components/Footer";
 import "../Style/Home.css"; // Import the new styles
+import HomeBody from "../Components/HomeBody";
 
 const Home = () => {
     return (
         <div className="home-container">
-            <Header className="header" />
-
-            <Footer className="footer" />
+            {/* Other content can go here */}
         </div>
     );
 };

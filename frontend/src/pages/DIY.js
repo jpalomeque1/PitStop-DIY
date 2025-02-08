@@ -1,5 +1,5 @@
 import React from 'react';
-import './DIY.css';
+import '../Style/DIY.css';
 import {useNavigate} from 'react-router-dom';
 
 function DIY() {
@@ -7,7 +7,6 @@ function DIY() {
 
     return (
         <div className="diy-container">
-            <h1>Page 2 "In Progress"</h1>
             <div className="video-container">
                 <iframe
                     width="100%"
@@ -21,7 +20,7 @@ function DIY() {
                 ></iframe>
 
             </div>
-            <button onClick={() => navigate('/account')}>Login</button>
+
             <div className="maintenance-log">
                 <div className="log-template">
                     <h2>Car Maintenance Log Template</h2>
