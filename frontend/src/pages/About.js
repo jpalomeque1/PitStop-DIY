@@ -6,7 +6,7 @@ const About = () => {
         <div className="main-container">
             {/* Hero Section */}
             <div className="hero">
-                <h1>Discover the Joy of Car DIY</h1>
+                <h1>Discover the Joy of DIY</h1>
                 <p>From tools to tips, explore everything you need to maintain and customize your car.</p>
             </div>
 

@@ -14,7 +14,7 @@
 .nav-button {
     text-decoration: none;
     background-color: black;
-    color: white;
+    color: whitesmoke;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 16px;
@@ -44,7 +44,7 @@
 
 .dropdown-menu .dropdown-item {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     padding: 10px;
     display: block;
     border-radius: 10px;
