@@ -1,13 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // React Router for navigation
-import "../Style/Login.css"; // Adjust based on your file structure
+import { useNavigate } from "react-router-dom";
+import "../Style/Login.css";
 
 const LoginForm = () => {
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
-        navigate("/inventory"); // Navigate to the inventory page
+        navigate("/Account"); // Navigate without authentication
     };
 
     return (
@@ -19,15 +19,11 @@ const LoginForm = () => {
                 <h1 className="title">Login</h1>
                 <form className="form" onSubmit={handleLogin}>
                     <div className="formGroup">
-                        <label htmlFor="username" className="label">
-                            Username
-                        </label>
+                        <label htmlFor="username" className="label">Username</label>
                         <input type="text" id="username" name="username" className="input" required />
                     </div>
                     <div className="formGroup">
-                        <label htmlFor="password" className="label">
-                            Password
-                        </label>
+                        <label htmlFor="password" className="label">Password</label>
                         <input type="password" id="password" name="password" className="input" required />
                     </div>
                     <button type="submit" className="button">Login</button>

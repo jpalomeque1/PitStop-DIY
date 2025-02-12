@@ -7,6 +7,7 @@ import DIY from "./pages/DIY";
 import Tools from "./pages/Tools";
 import About from "./pages/About";
 import Login from "./pages/Login";
+import Account from "./pages/Account";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/tools" element={<Tools />} />
                     <Route path="/about" element={<About/>} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/account" element={<Account />} />
                 </Routes>
             </div>
             <Footer />
