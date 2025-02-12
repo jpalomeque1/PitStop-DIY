@@ -19,7 +19,7 @@ const LoginForm = () => {
                 <h1 className="title">Login</h1>
                 <form className="form" onSubmit={handleLogin}>
                     <div className="formGroup">
-                        <label htmlFor="username" className="label">Username</label>
+                        <label htmlFor="username" className="label">Email</label>
                         <input type="text" id="username" name="username" className="input" required />
                     </div>
                     <div className="formGroup">
@@ -28,6 +28,7 @@ const LoginForm = () => {
                     </div>
                     <button type="submit" className="button">Login</button>
                 </form>
+                <p className="signupText" onClick={() => navigate("/SignUp")}>Sign Up</p>
             </div>
         </div>
     );
