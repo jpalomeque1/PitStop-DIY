@@ -14,6 +14,7 @@ const About = () => {
             <div className="sections">
                 <div className="section-container">
                     <div className="section">
+                        <img src="/DIYP.png" alt="DIY Projects" className="section-image"/>
                         <h3>DIY Projects</h3>
                         <p>Learn how to take care of your car with simple step-by-step guides.</p>
                     </div>
@@ -38,6 +39,7 @@ const About = () => {
                 </div>
                 <div className="section-container">
                     <div className="section">
+                        <img src="/ETOOLs.png" alt="DIY Projects" className="section-image"/>
                         <h3>Essential Tools</h3>
                         <p>Find the tools that make every car project easier and more efficient.</p>
                     </div>
@@ -61,6 +63,7 @@ const About = () => {
                 </div>
                 <div className="section-container">
                     <div className="section">
+                        <img src="/Community.png" alt="DIY Projects" className="section-image"/>
                         <h3>Join the Community</h3>
                         <p>Connect with car enthusiasts and share your journey.</p>
                     </div>
